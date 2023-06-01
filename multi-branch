@@ -1,9 +1,12 @@
 pipeline{
   agent any
   stages{
-     stage("hii come pipeline"){
+     stage("maven build"){
+       when{
+         branch 'devlop'
+       } 
        steps{
-         echo "hii java mvn"
+         echo "hii jenkins"
        }
      }
   }
