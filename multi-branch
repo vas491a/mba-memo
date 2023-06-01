@@ -1,10 +1,10 @@
 pipeline{
   agent any
   stages{
-     stage("hii come pipeline"){
+    stage("hii come pipeline"){
        steps{
          echo "hii java mvn"
        }
-     }
+    }
   }
 }      
